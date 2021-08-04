@@ -1,0 +1,25 @@
+{
+  "name": "specflow-emulator",
+  "version": "1.0.0",
+  "description": "A package that emulate specflow using jest-cucumber under the hood",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --watchAll"
+  },
+  "author": "Mickael Croquet",
+  "license": "ISC",
+  "dependencies": {
+    "babel-jest": "^27.0.6",
+    "callsites": "^3.1.0",
+    "glob": "^7.1.7",
+    "jest": "^27.0.6",
+    "jest-cucumber": "^3.0.1",
+    "kleur": "^4.1.4",
+    "ts-jest": "^27.0.3"
+  },
+  "rootDir": "./",
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "typescript": "^4.3.5"
+  }
+}
